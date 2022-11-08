@@ -1,5 +1,5 @@
 <div class="card-product">
-  <%= image_tag "https://loremflickr.com/320/240/#{pet.species}" %>
+  <%= image_tag "http://source.unsplash.com/featured/?#{pet.species.downcase}&#{rand(1000)}/800x333" %>
   <div class="card-product-infos">
     <h2><%= pet.name %></h2>
     <p><%= pet.address %></p>
